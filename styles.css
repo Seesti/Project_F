@@ -1,60 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap");
 
 * {
-    font-family: 'Inter', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 24px;
-  }
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
 
 .row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    color: #242424;
+  text-decoration: none;
+  color: #242424;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .logo__link {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  transform: scale(0.6);
+  font-size: 48px;
+  margin-right: 40px;
 }
 
 .logo {
-    transform: scale(0.6);
+  padding-right: 8px;
 }
 
 /*   NAVIGATION BAR  */
 
-
 .nav__container {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    height: 80px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 80px;
 }
 
 .nav__link--anchor {
-    font-size: 16px;
-    margin: 0 16px;
+  font-size: 16px;
+  margin: 0 16px;
 }
 
-.nav__links {
-    display: flex;
-    justify-content: space-between;
+.nav__link--anchor-login {
+  margin-left: 56px;
+}
+
+.nav__link--anchor-primary {
+  background-color: rgb(100 21 255);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 9999px;
+}
+
+.nav__link--anchor-primary:hover {
+    transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 300ms;
 }
