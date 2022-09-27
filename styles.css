@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .row {
@@ -27,19 +27,22 @@ li {
   list-style-type: none;
 }
 
+
+/*   NAVIGATION BAR  */
+
+
 .logo__link {
   display: flex;
   align-items: center;
-  transform: scale(0.6);
-  font-size: 48px;
-  margin-right: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0 16px;
 }
 
 .logo {
-  padding-right: 8px;
+  width: 64px;
+  padding-right: 6px;
 }
-
-/*   NAVIGATION BAR  */
 
 .nav__container {
   width: 100%;
@@ -57,7 +60,8 @@ li {
 }
 
 .nav__link--anchor-login {
-  margin-left: 56px;
+  margin-left: 64px;
+  margin-right: 8px;
 }
 
 .nav__link--anchor-primary {
@@ -65,10 +69,9 @@ li {
   color: white;
   padding: 12px 32px;
   border-radius: 9999px;
+  transition: all 250ms ease;
 }
 
 .nav__link--anchor-primary:hover {
-    transition-property: background-color, border-color, color, fill, stroke,
-    opacity, box-shadow, transform;
-  transition-duration: 300ms;
+    background-color: rgb(61, 0, 158);
 }
