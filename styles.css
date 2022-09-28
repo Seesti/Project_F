@@ -33,7 +33,7 @@ li {
 
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 .purple {
@@ -119,13 +119,12 @@ header {
 
 .header__para {
   margin: 32px 0;
-  font-weight: lighter;
+  font-weight: 200;
+  font-size: 1.125rem;
 }
 
 .header__img--wrapper {
   width: 60%;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .img__books {
@@ -134,8 +133,35 @@ header {
 
 
 .input__container {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 28rem;
+}
+
+
+.input__self {
+  width: 100%;
   border-radius: 9999px;
   border-width: 2px;
+  max-width: 28rem;
+  width: 100%;
+  font-weight: 500;
+  height: 80px;
+  border-color: rgb(226, 232, 240);
+  border-style: solid;
+  transition: all 300ms ease;
+  padding: 20px 192px 20px 32px;
+}
+
+
+.input__self:focus {
+  border-color: rgb(100 21 255);
+  outline: none;
+}
+
+.input__self::placeholder {
+  opacity: 0.4;
 }
 
 
@@ -144,9 +170,14 @@ button {
   color: white;
   padding: 12px 32px;
   border-radius: 9999px;
-  transition: all 250ms ease;
   border: none;
-  font-weight: bold;
+  position: absolute;
+  margin: 8px 8px 8px 0;
+  width: 160px;
+  font-weight: 700;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
 }
 
 button:hover {
