@@ -46,6 +46,7 @@ nav {
 p {
   font-weight: 300;
   font-size: 1.125rem;
+  color: #7C8BA1;
 }
 
 h1 {
@@ -55,7 +56,7 @@ h1 {
 h2 {
   font-size: 48px;
   font-weight: 900;
-  color: #242424;
+  color: #243e63;
 }
 
 h3 {
@@ -148,6 +149,7 @@ header {
 .header__para {
   margin: 32px 0;
   line-height: 1.5;
+  color: #243e63;
 }
 
 .header__img--wrapper {
@@ -514,7 +516,7 @@ margin-top: 12px;
   align-items: center;
 }
 
-.personal__plan {
+.personal__plan--per {
   width: 100%;
   max-width: 384px;
   display: flex;
@@ -527,16 +529,41 @@ margin-top: 12px;
   border-radius: 8px;
 }
 
-.plan__highlight {
+.personal__plan--bus {
+  width: 100%;
+  max-width: 384px;
+  color: #F7FAFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(226, 232, 240);
+  border-radius: 8px;
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+
+.plan__highlight--per {
   width: 100%;
   height: 8px;
-  background-color: green;
+  background: linear-gradient(115deg, rgb(56, 178, 172)0%, rgb(129, 230, 217) 100%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+.plan__highlight--ent {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 
 .plan__header {
   width: 100%;
+  padding: 32px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -547,12 +574,23 @@ margin-top: 12px;
 
 .plan__info {
   width: 100%;
+  padding: 32px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: solid;
   border-width: 1px;
   border-color: rgb(226, 232, 240);
+}
+
+.plan__button {
+  padding: 32px 0;
+}
+
+.buy__btn--per:hover {
+  transform: translateX(4px);
+  transform: translateY(4px);
+  
 }
 
 .name {
@@ -563,4 +601,66 @@ margin-top: 12px;
 .price {
   font-size: 48px;
   font-weight: 600;
+  margin: 4px 0;
 }
+
+.feature__main {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+
+.feature {
+  font-weight: 400;
+  color: #718096;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.feature--bus {
+  font-weight: 400;
+  color: #F7FAFC;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.buy__btn--per {
+  background: linear-gradient(115deg, rgb(56, 178, 172)0%, rgb(129, 230, 217) 100%);
+  color: #F7FAFC;
+  padding: 16px 32px;
+  border-radius: 9999px;
+  border: none;
+  width: 256px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  transition: all 300ms;
+}
+
+.buy__btn--bus {
+  background-color: #F7FAFC;
+  color: #6415FF;
+  padding: 16px 32px;
+  border-radius: 9999px;
+  border: none;
+  width: 256px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  transition: all 300ms;
+}
+
+.buy__btn--ent {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  color: #F7FAFC;
+  padding: 16px 32px;
+  border-radius: 9999px;
+  border: none;
+  width: 256px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  transition: all 300ms;
+}
+
