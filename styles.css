@@ -493,3 +493,74 @@ margin-top: 12px;
 
 
 /*  PRICES  */
+
+.container__pricing {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.plans__container {
+  display: flex;
+}
+
+
+
+.plan__container {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal__plan {
+  width: 100%;
+  max-width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-top: hidden;
+  border-width: 1px;
+  border-color: rgb(226, 232, 240);
+  border-radius: 8px;
+}
+
+.plan__highlight {
+  width: 100%;
+  height: 8px;
+  background-color: green;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.plan__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(226, 232, 240);
+}
+
+.plan__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(226, 232, 240);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 600;
+}
