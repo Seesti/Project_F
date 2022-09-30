@@ -365,7 +365,9 @@ margin-top: 12px;
 
 /*  STEPS  */
 
-
+#steps {
+  height: 626px;
+}
 
 .steps__img--wrapper {
   width: 50%;
@@ -410,3 +412,84 @@ margin-top: 12px;
 .steps__list--para {
   margin-top: 12px;
 }
+
+
+
+/*  VALUES  */
+
+#values {
+  height: 626px;
+}
+
+.values__container {
+  display: flex;
+}
+
+.values__aff--title {
+  display: flex;
+  align-items: center;
+}
+
+.values__container--affordable {
+  margin: 32px 32px 0 0;
+}
+
+.values__container--prof {
+  margin-top: 32px;
+}
+
+.values__aff--h {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.values__container--para {
+  margin-top: 16px;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.values__img--wrapper {
+  width: 50%;
+}
+
+.values__img {
+  width: 100%;
+}
+
+.values__dollar--wrapper {
+  transform: scale(1);
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
+
+
+.values__dollar {
+  width: 100%;
+  transform: scale(1);
+  background-color: rgba(7, 156, 19, 0.521);
+}
+
+.values__suitcase--wrapper {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.values__suitcase {
+  width: 100%;
+  transform: scale(1);
+  background-color: #be002983;
+}
+
+
+
+
+/*  PRICES  */
