@@ -19,7 +19,7 @@ button {
 
 a {
   text-decoration: none;
-  color: #242424;
+  color: #243e63;
 }
 
 ul {
@@ -85,7 +85,7 @@ a{
 .nav__link--hover-effect::after {
   content: "";
   position: absolute;
-  height: 3px;
+  height: 2px;
   width: 0;
   bottom: -3px;
   right: 0;
@@ -94,7 +94,7 @@ a{
   
   
   .nav__link--anchor-black:after {
-    background-color: black;
+    background-color: #243e63;
   }
 
   
@@ -148,6 +148,7 @@ a{
   border-radius: 9999px;
   transition: all 250ms ease;
   font-size: 14px;
+  margin-right: 0;
 }
 
 .nav__link--anchor-primary:hover {
