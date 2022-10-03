@@ -8,13 +8,12 @@
   font-size: 16px;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+button {
+  cursor: pointer;
 }
 
-body {
+
+.row__border {
   padding: 32px 32px 0 32px;
 }
 
@@ -104,6 +103,7 @@ h6 {
 
 .nav__link--anchor {
   font-size: 16px;
+  font-weight: 500;
   margin-left: 16px;
 }
 
@@ -222,8 +222,8 @@ button:hover {
 
 
 .customer__logo--para {
-  opacity: 0.4;
-  font-weight: 900;
+  color: rgb(160 174 192);
+  font-weight: 700;
   font-size: 12px;
 }
 
@@ -500,13 +500,12 @@ margin-top: 12px;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  height: 1000px;
+  height: 950px;
 }
 
 .plans__container {
   display: flex;
 }
-
 
 
 .plan__container {
@@ -664,3 +663,80 @@ margin-top: 12px;
   transition: all 300ms;
 }
 
+
+/* CONTACT */
+
+
+#contact {
+  margin-top: 96px;
+  margin-bottom: 192px;
+}
+
+.contact__container {
+  width: 100%;
+  max-width: 1280px;
+  height: 282px;
+  margin: 0 auto;
+  background-color: rgb(100 21 255);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text__container--cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 160px;
+}
+
+.contact__h5 {
+  font-size: 30px;
+  color: #F7FAFC;
+  width: 50%;
+}
+
+.contact__buttons {
+  width: 50%;
+  display: flex;justify-content: center;
+}
+
+.started__button {
+  margin-right: 32px;
+  background-color: rgb(245 101 101);
+  border: none;
+  transition: all 300ms;
+  padding: 20px 40px;
+  border-radius: 9999px;
+  color: #F7FAFC;
+  font-weight: 600;
+}
+
+.started__button:hover {
+  background-color: #e53e3e;
+}
+
+.contact__btn {
+  background-color: inherit;
+  transition: all 300ms;
+  padding: 20px 40px;
+  border-radius: 9999px;
+  border-color: #F7FAFC;
+  border-width: 1px;
+  color: #F7FAFC;
+  font-weight: 600;
+}
+
+.contact__btn:hover {
+  background-color: #F7FAFC;
+  color: #6415FF;
+}
+
+
+/*  FOOTER  */
+
+
+footer {
+  background-color: #6415FF;
+  width: 100vw;
+}
