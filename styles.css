@@ -252,7 +252,7 @@ header {
   transition: all 300ms;
 }
 
-.started__btn
+.started__btn:hover,
 .learn__btn:hover {
   background-color: rgb(61, 0, 158);
 }
@@ -925,9 +925,11 @@ svg {
   h1 {
     font-size: 36px;
   }
+
   .header__para {
     font-size: 16px;
   }
+  
 }
 
 
