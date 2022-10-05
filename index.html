@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/cb26e5b14d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="row__border">
@@ -49,13 +51,56 @@
             </li>
             <li class="nav__link">
               <a
-                href="#"
-                class="nav__link--anchor nav__link--anchor-white nav__link--anchor-primary nav__link--hover-effect"
-                >Sign Up</a
+              href="#"
+              class="nav__link--anchor nav__link--anchor-white nav__link--anchor-primary nav__link--hover-effect"
+              >Sign Up</a
               >
             </li>
           </ul>
         </div>
+          <button class="btn__menu" onclick="openMenu()"><i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="nav__links--menu">
+              <li class="nav__link--menu">
+                <a href="#" class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-black nav__link--hover-effect"
+                  >About</a
+                >
+              </li>
+              <li class="nav__link--menu">
+                <a href="#" class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-black nav__link--hover-effect"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav__link--menu">
+                <a href="#" class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-black nav__link--hover-effect"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav__link--menu">
+                <a href="#" class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-black nav__link--hover-effect"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav__link--menu">
+                <a
+                  href="#"
+                  class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-black nav__link--anchor-login nav__link--hover-effect"
+                  >Login</a
+                >
+              </li>
+              <li class="nav__link--menu">
+                <a
+                  href="#"
+                  class="nav__link--anchor nav__link--anchor-menu nav__link--anchor-white nav__link--anchor-primary nav__link--anchor-primary-menu nav__link--hover-effect"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
       </nav>
     </section>
 
@@ -64,7 +109,7 @@
         <div class="header__description">
           <h1 class="header__h1">
             Beautiful React Templates
-            <span class="purple">for you</span>
+            <span class="purple">for you.</span>
           </h1>
           <p class="header__para">
             Our templates are easy to setup, understand and customize. Fully
